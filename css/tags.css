@@ -1,0 +1,98 @@
+/* 
+    Document   : tags
+    Created on : 16/07/2010, 8:28:39 AM
+    Author     : gareth.r.edwards
+    Description:
+        styling of tags for the telephone telepathy experiment
+*/
+h3 {
+    font-family: Gill, Helvetica, sans-serif;
+    font-size: small;
+}
+
+p {
+    font-family: Gill, Helvetica, sans-serif;
+    font-size: small;
+}
+
+p.info {
+    text-align: justify;
+}
+
+p.tiny {
+    font-size: x-small;
+}
+
+a {
+    font-family: Gill, Helvetica, sans-serif;
+    font-size: small;
+}
+
+a.switch {
+    color: #213242;
+    font-weight: bold;
+}
+
+a img {
+    border: none;
+}
+
+ul#list-nav-user {
+    font-family: Gill, Helvetica, sans-serif;
+    font-size: small;
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    width: 600px;
+}
+
+ul#list-nav-admin {
+    font-family: Gill, Helvetica, sans-serif;
+    font-size: small;
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    width: 170px;
+}
+
+ul#list-nav-user li {
+    display: inline
+}
+
+ul#list-nav-admin li {
+    display: inline
+}
+
+ul#list-nav-user li a {
+    text-decoration: none;
+    border-left: 1px dotted #006;
+    border-bottom: 1px dotted #006;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    width: 75px;
+    color: #213242;
+    float: left;
+    text-align: left;
+}
+
+ul#list-nav-admin li a {
+    text-decoration: none;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    width: 20px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    border: none;
+}
+
+ul#list-nav-user li a:hover {
+    background: #e4fbfd;
+    color: #86641a;
+}
+
+

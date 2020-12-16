@@ -1,0 +1,33 @@
+label {
+	float: left;
+	clear: left;
+	width: 250px;
+	text-align: right;
+	margin: 2px;
+}
+input, select, textarea {
+	color: #000;
+	border: 2px solid #aaa;
+	background: #eee;
+	margin: 2px;
+}
+input:hover, select:hover, textarea:hover {
+	color: #000;
+	border: 2px solid #000;
+	background: #eee;
+}
+input:focus, select:focus, textarea:focus {
+	color: #000;
+	border: 2px solid #0c0;
+	background: #fff;
+}
+input.chk {width: 20px; height: 20px;}
+input.wpisz_cos, select.wpisz_cos {width: 400px;}
+input.narrow {width: 50px;}
+textarea.wpisz_cos {width: 400px; height: 150px;}
+textarea.big_text {width: 600px; height: 400px;}
+textarea.sql {width: 960px; height: 800px; white-space: nowrap; font-family: monospace;}
+input.delete {
+	color: #f00;
+	font-weight: bold;
+}

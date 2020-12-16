@@ -1,0 +1,54 @@
+#colorpicker {
+	position: absolute;
+	width: 195px;
+	padding: 10px;
+	display: none;
+	z-index: 20000;
+}
+a#cmClose, a#cmClose:visited {
+	padding: 2px;
+	background: #000;
+	color: #fff;
+	width: 40px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+}
+a#cmClose:hover {
+	background: #000;
+	color: #fff;
+}
+.farbtastic {
+  position: relative;
+}
+.farbtastic * {
+  position: absolute;
+  cursor: crosshair;
+}
+.farbtastic, .farbtastic .wheel {
+  width: 195px;
+  height: 195px;
+}
+.farbtastic .color, .farbtastic .overlay {
+  top: 47px;
+  left: 47px;
+  width: 101px;
+  height: 101px;
+}
+.farbtastic .wheel {
+  background: url(../grafika/wheel.png) no-repeat;
+  width: 195px;
+  height: 195px;
+}
+.farbtastic .overlay {
+  background: url(../grafika/mask.png) no-repeat;
+}
+.farbtastic .marker {
+  width: 17px;
+  height: 17px;
+  margin: -8px 0 0 -8px;
+  overflow: hidden;
+  background: url(../grafika/marker.png) no-repeat;
+}
+

@@ -1,0 +1,14 @@
+table {
+	border-collapse: collapse;
+	border: none;
+	width: 100%;
+}
+th {
+	background: #ccc;
+	color: #000;
+}
+td {
+	border: none;
+	padding: 3px;
+}tr.member td, tr.gray.member {background: #e5fdff;}
+

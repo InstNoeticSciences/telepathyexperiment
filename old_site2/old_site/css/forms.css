@@ -1,0 +1,233 @@
+/*========================================================= Basic forms style */
+input, textarea, select {
+	border: 1px solid #000;
+	background: #fff;
+	margin: 2px;
+}
+input:hover, textarea:hover, select:hover {
+	border: 1px solid #498A2C;
+}
+input:focus, textarea:focus, select:focus {
+	border: 1px solid #498A2C;
+}
+
+input.wpisz_cos, select.wpisz_cos {width: 250px !important; width: 240px;}
+textarea.wpisz_cos {width: 250px; height: 80px;}
+input.chk {
+	width: 18px;
+	height: 18px;
+	border: none;
+	background: transparent;
+	margin: 2px;
+	vertical-align: middle;
+}
+label {
+	float: left;
+	width: 200px;
+	text-align: right;
+	margin: 2px;
+	clear: left;
+	font-size: 90%;
+}
+input.submit {
+	border: 1px solid #000;
+	color: #fff;
+	background-color: #007dfe;
+	font-weight: bold;
+}
+
+input.submit:hover {
+	background-color: #498A2C;
+}
+input#back_image {width: 250px;}
+/*========================================================= Login and register forms */
+#right label {
+	display: block;
+	float: none;
+	width: 183px;
+	text-align: left;
+}
+#right input.wpisz_cos {width: 203px !important;}
+input.log_reg {
+	border: 1px solid #000;
+	color: #fff;
+	background-color: #007dfe;
+	font-weight: bold;
+	padding: 0px 3px 0px 3px;
+}
+#login_button {
+	float: right;
+}
+input.log_reg:hover {background: #498A2C;}
+img#sec_code {border: 1px solid #000;}
+
+/*========================================================= message layer buttons */
+.msg form, .mini_msg form {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+.msg input, .mini_msg input, #profile_header input.delete_msg, #profile_header input.reply {
+	background-color: transparent;
+	border: none;
+	color: #000;
+	font-size: 80%;
+	line-height: 16px;
+	height: 18px;
+	width: 50px;
+	margin-top: 0px;
+	padding: 0px 0px 0px 16px;
+	cursor: pointer;
+}
+.msg input:hover, .msg input:focus,.mini_msg input:hover, .mini_msg input:focus {color: #f60;}
+
+input.delete_msg {
+	background: transparent url(../grafika/cancel.png) center center no-repeat;
+	width: 16px;
+	height: 16px;
+}
+input.reply {
+	background: transparent url(../grafika/comment.png) center center no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+/*========================================================= send message form */
+textarea#message {
+	border: 1px solid #fff;
+	width: 590px;
+	height: 65px;
+	margin-top: 0px;
+	background-color: #eee;
+}
+#profile_header input {
+	border: 1px solid #fff;
+	background-color: #eee;
+}
+#profile_header input.submit {
+	border: 1px solid #fff;
+	color: #fff;
+	font-weight: bold;
+	background: #007dfe url(../grafika/comment.png) 3px center no-repeat;
+	margin: 5px;
+	padding: 3px 3px 3px 20px;
+}
+
+#profile_header input.submit:hover {color: #007dfe; background-color: #fff;}
+#profile_header form, #profile_header label {color: #fff;}
+
+/*========================================================= user relation */
+.follow_button {
+	background: transparent;
+	border: none;
+	color: #000;
+	font-size: 90%;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: left;
+	cursor: pointer;
+	float: left;
+	padding: 0px 2px 0px 2px;
+	width: auto;
+}
+.follow_button:hover {color: #000; border: none; text-decoration: none;}
+
+/*========================================================= settings */
+#settings_content label {width: 150px;}
+#settings_content .wpisz_cos {width: 250px;}
+textarea.paste_code {width: 400px; height: 100px; font-size: 80%; font-family: "Courier New", Courier, monospace;}
+input#sticker_color {background: #fff;}
+input#back_color {background: #fff;}
+input#text_color {background: #fff;}
+input#name_color {background: #fff;}
+input#link_color {background: #fff;}
+input#bubble_fill_color {background: #fff;}
+input#bubble_border_color {background: #fff;}
+input#side_border_color {background: #fff;}
+input#side_fill_color {background: #fff;}
+input#top_area_color {background: #f60;}
+
+
+/*========================================================= search */
+#top .form_search {
+	position: absolute;
+	top: 5px;
+	right: 0px;
+	width: 320px;
+}
+
+
+#top .form_lang {
+	position: absolute;
+	top: 45px;
+	right: 0px;
+	width: 180px;
+}
+
+
+#search_words {
+	width: 160px;
+	border: 1px solid #fff;
+	color: #000;
+	background: #eee url(../grafika/search_box_back.png) left top no-repeat;
+	height: 19px;
+	padding-top: 3px;
+	position: relative;
+	top: 3px;
+}
+#search_words:hover, #search_words:focus {background: #eee;}
+
+#search {
+	background: #eee url(../grafika/search_button_back.png) left top no-repeat;
+	height: 23px;
+	border: 1px solid #fff;
+	padding-left: 20px;
+	width: 55px;
+	color: #000;
+	position: relative;
+	top: 3px;
+}
+
+/*========================================================= other */
+#notify_mode1, #notify_mode2, #notify_mode3, #notify_mode4, #notify_direct1, #notify_direct2 {vertical-align: middle; border: none; background: transparent;}
+
+textarea#api_key {width: 300px; height:1.5em;}
+
+
+/*========================================================= tt experiment */
+.friend_select {
+	width: 100px;
+}
+
+input.tt_dummy {
+    border: none;
+    font-size: 112%;
+}
+
+input.tt_button {
+    border: 1px solid #000;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+input.tt_submit {
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #007dfe;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+input.tt_submit[disabled] {
+    background-color: silver;
+    color: #ddd;
+}
+
+input.tt_submit:hover {
+	background-color: #498A2C;
+}
+
+

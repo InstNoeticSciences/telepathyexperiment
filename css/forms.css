@@ -1,0 +1,82 @@
+/* 
+    Document   : forms
+    Created on : 16/07/2010, 8:07:01 AM
+    Author     : gareth.r.edwards
+    Description:
+        form elements for the telephone telepathy experiment
+*/
+.input {
+    font-family: Gill, Helvetica, sans-serif;
+    font-size: small;
+    border-bottom: 1px solid #006;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.input:hover {
+    border-bottom: 1px solid #aeaeaf;
+    background: #e4fbfd;
+}
+
+.readonly {
+    font-family: Gill, Helvetica, sans-serif;
+    font-size: small;
+    border-bottom: 1px solid #006;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #339966;
+}
+
+.invisible {
+    border: none;
+    color: #ffffff;
+    background-color: #ffffff;
+    width: 0;
+    height: 0;
+}
+
+.button {
+    border-style: solid;
+    border-width: thin;
+    border-color: #070e15;
+    font-family: Gill, Helvetica, sans-serif;
+    font-size: small;
+    background: #d7effd;
+}
+
+.button:hover {
+    border: 1px solid #f00;
+    background: #ccffff;
+}
+
+.msg {
+    font-family: Gill, Helvetica, sans-serif;
+    font-size:large;
+    font-style: italic;
+    color:#F30;
+    border: none;
+}
+
+.label {
+    font-family: Gill, Helvetica, sans-serif;
+    font-size: small;
+    font-style: italic;
+}
+
+.textarea {
+    font-family: Gill, Helvetica, sans-serif;
+    font-size: small;
+    border: 1px solid #006;
+    overflow: auto;
+}
+
+.textarea:hover {
+    border: 1px solid #aeaeaf;
+    background: #e4fbfd;
+}
+
+td-error {
+    background-color: #e4fbfd;
+}

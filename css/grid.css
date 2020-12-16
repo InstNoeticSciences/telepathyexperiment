@@ -1,0 +1,58 @@
+body {
+    font-family: Gill, Helvetica, sans-serif;
+    font-size: small;
+}
+
+table.overview {
+    border: black 1px solid;
+    width: 800px;
+}
+
+table.detail {
+    border: black 1px solid;
+    width: 1800px;
+}
+
+td.right {
+    color: #213242;
+    text-align: right;
+    font-size: small;
+}
+
+td.left {
+    color: #213242;
+    text-align: left;
+    font-size: small;
+    border: 1px dotted gray;
+}
+
+th {
+    text-align: left;
+    background-color: #c6e3fe;
+    color: #213242;
+    font-weight: normal;
+    font-size: small;
+}
+
+td.data {
+    color: #213242;
+    font-weight: normal;
+    font-size: small;
+    border: 1px dotted gray;
+}
+
+td.datetime {
+    color: #213242;
+    font-weight: normal;
+    font-size: small;
+    border: 1px dotted gray;
+    width: 70px;
+}
+
+td.friend {
+    color: #213242;
+    font-weight: normal;
+    font-size: small;
+    border: 1px dotted gray;
+    width: 140px;
+}

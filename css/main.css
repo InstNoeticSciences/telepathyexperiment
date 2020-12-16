@@ -1,0 +1,12 @@
+/* 
+    Document   : main
+    Created on : 16/07/2010, 8:16:33 AM
+    Author     : gareth.r.edwards
+    Description:
+        styling of top-level elements for the telephone telepathy experiment
+*/
+body {
+    font-family: Gill, Helvetica, sans-serif;
+    font-size: small;
+}
+

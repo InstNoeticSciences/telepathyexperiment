@@ -1,0 +1,78 @@
+a img {
+	border-width: 0px;
+}
+img {
+
+}
+img.noborder {
+	border-width: 0px;
+}
+img.avatar {
+	background: #fff;
+	border: 1px solid #b5b5b5;
+	padding: 2px;
+	float: left;
+	margin-right: 5px;
+	margin-top: 5px;
+	width: 60px;
+	height: 60px;
+}
+.avatar_preview {
+	background: #fff;
+	border: 2px solid #000;
+	padding: 5px;
+	width: 60px;
+	height: 60px;
+}
+#profile_header img.avatar {border: 1px solid #fff; margin-top: 0px;}
+#picture_set img {margin: 5px;}
+.gray img.avatar {border: 2px solid #000; background: #fff;}
+img.chosen {background: #000;}
+img.mini_friend, a img.mini_friend , a:visited img.mini_friend {
+	padding: 0px;
+	border: 1px solid #000;
+	margin: 5px;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	vertical-align: middle;
+}
+
+a:hover img.mini_friend {background: #f60;}
+img.im_logo {
+	vertical-align: middle;
+	margin: 5px;
+}
+img.r {
+	display: block;
+	margin: 5px;
+	padding: 1px;
+	border: 1px solid #666;
+	float: right;
+}
+img.l {
+	float: left;
+	margin: 5px 5px 5px 0px;
+}
+img.fav_add, img.fav_del {
+	margin: 5px 0px 0px 5px;
+	cursor: pointer;
+}
+a img.bglib_pic {
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding: 2px;
+	margin: 10px;
+	border: 1px solid #000;
+	vertical-align: middle;
+}
+a img.bglib_pic_current {
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding: 0px;
+	margin: 10px;
+	border: 3px solid #000;
+	vertical-align: middle;
+}

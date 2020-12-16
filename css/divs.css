@@ -1,0 +1,71 @@
+/* 
+    Document   : divs
+    Created on : 16/07/2010, 10:36:52 AM
+    Author     : gareth.r.edwards
+    Description:
+        styling of divs for the telephone telepathy experiment
+*/
+div.wrapper {
+    width: 820px;
+    border: none;
+}
+
+div.left_box{
+    float: left;
+    padding: 10px;
+    width: 420px;
+    border: none;
+}
+
+div.big_box {
+    padding: 10px;
+    width: 800px;
+    border: none;
+}
+
+div.right_box{
+    float: right;
+    padding: 10px;
+    width: 355px;
+    border: none;
+}
+
+div.statistics {
+    padding: 5px;
+    width: 500px;
+    border: 1px solid gray;
+}
+
+div.footer{
+    clear: both;
+    padding: 10px;
+    width: 820px;
+    border: none;
+}
+
+div.banner {
+    padding: 0px;
+    width: 820px;
+    height: 100px;
+    background-color: #c6e3fe;
+    border: none;
+}
+
+div.header_left {
+    padding: 10px;
+    padding-top: 18px;
+    width: 500px;
+    height: 20px;
+    float: left;
+    border: none;
+}
+
+div.header_right {
+    padding: 10px;
+    padding-top: 18px;
+    width: 180px;
+    height: 20px;
+    float: right;
+    border: none;
+    text-align: right;
+}

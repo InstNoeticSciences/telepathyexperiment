@@ -1,0 +1,4 @@
+#set /demo/api/friendships if setup url is yoursite.com/demo
+RewriteEngine on
+RewriteBase /demo/api/friendships
+RewriteRule ^[^/].*$ friendships.php

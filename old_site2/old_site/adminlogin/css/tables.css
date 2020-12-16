@@ -1,0 +1,27 @@
+table {
+	border-collapse: collapse;
+	border: 1px solid #666;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+th {
+	border: 1px solid #666;
+	background: #aaa;
+	font-size: 10pt;
+	padding: 3px;
+	font-weight: bold;
+	color: #fff;
+}
+td {
+	font-size: 8pt;
+	padding: 3px;
+	border: 1px solid #666;
+}
+td.do_it, .gray td.do_it {
+	background: #0c0;
+	text-align: center;
+}
+td.watch_out, .gray td.watch_out {
+	background: #e00;
+}
+.gray {background: #eee;}

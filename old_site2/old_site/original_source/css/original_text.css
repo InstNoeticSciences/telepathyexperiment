@@ -1,0 +1,75 @@
+h1 {margin: 5px 0px 10px 0px; font-size: 140%; color: #007eff;}
+#right h1 {font-size: 1em; font-weight: bold;}
+#profile_header h1 {color: #fff;}
+h1.header {
+	color: #fff;
+	font-size: 1.3em;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	line-height: 1em;
+}
+.greenfield h1 {color: #fff;}
+h2 {margin: 10px 0px 10px 0px; font-size: 120%; font-weight: bold; color: #007eff;}
+.person h2 {margin-bottom: 5px;}
+#settings h2 {
+	color: #000;
+	font-size: 90%;
+	font-weight: bold;
+}
+#choose_photo h2, #upload_photo h2 {margin-top: 0px;}
+
+h3 {margin: 10px 0px 10px 0px;	font-size: 120%; color: #498A2C;}
+h4 {margin: 10px 0px 10px 0px;	font-size: 110%;}
+p {margin: 10px 0px 10px 0px;}
+
+strong, b {font-weight: bold; font-size: 1em;}
+
+.ok {text-align: center; font-weight: bold; margin: 20px;}
+.error {text-align: center;	color: #c00; margin: 10px; font-weight: bold; font-size: 120%;}
+.mini {font-size: 0.8em; line-height: 1.5em; font-weight: normal;}
+
+
+.from {color: #000; font-size: 0.7em;}
+.greenfield .when, .greenfield .from {color: #fff; font-weight: normal;}
+.right {text-align: right;}
+.mid {text-align: center;}
+p.hint {
+	padding-left: 200px;
+	font-size: 75%;
+	color: #666;
+	margin-top: 0px;
+}
+.comment {color: #999; font-size: 80%;}
+p.comment {margin: 5px 0px 5px 0px;}
+p.preview, #additional_note {
+	background: #eee;
+	padding: 10px;
+	line-height: 1.2em;
+	font-family: monospace;
+	font-size: 70%;
+}
+p.tabs {border-bottom: 2px solid #000;}
+#profile_header p {position: relative; color: #fff; margin: 0px; font-size: 120%;}
+#login_stuff p {position: relative;}
+.side_middle p {font-size: 85%; line-height: 1.3em;}
+#additional_note {font-size: 1em; display: block;}
+
+#chars_left {
+	color: #fff;
+}
+
+.how_long_ago {color: #6f0000; font-size: 90%;}
+.user_name {color: #f60;}
+
+ul li {margin-left: 25px;}
+ul#as_ul li a {color: #fff;}
+ul.ul_start li {font-weight: bold;}
+#im_contact {color: #f00; font-size: 120%; font-weight: bold;}
+.my_latest_msg {font-size: 110%; font-weight: bold;}
+.first {margin-top: 0px;}
+.invitation_message {
+	background: #eee;
+	padding: 10px;
+	font-family: monospace;
+}
+#total_credits_price {font-weight: bold;}

@@ -1,0 +1,29 @@
+a, a:visited {
+	color: #00c;
+	text-decoration: underline;
+}
+a:hover {
+	color: #c00;
+	text-decoration: none;
+}
+#menu a, #menu a:visited {
+	padding: 2px;
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+}
+#menu a:hover {
+	color: #000;
+	background: #fff;
+}
+#bottom a, #bottom a:visited {
+	color: #fff;
+	text-decoration: none;
+	font-size: 8pt;
+}
+#bottom a:hover {
+	color: #c00;
+}
+td a, td a:visited {
+	font-size: 8pt;
+}

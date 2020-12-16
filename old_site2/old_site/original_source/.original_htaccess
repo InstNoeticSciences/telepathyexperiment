@@ -1,0 +1,14 @@
+AddType x-mapp-php5 .php
+
+RewriteEngine on
+#if the site is placed in the root folder of the domain,
+#the following line should be: RewriteBase /
+#it also may be unnecessary - this depends on the server configuration
+#example set /demo/ if setup url is yoursite.com/demo, set / if setup url is yoursite.com
+RewriteBase /
+#
+##please DO NOT edit these lines:
+RewriteRule ^(css|js|grafika|sample_photos|avatars25|avatars_mini|avatars_group|resources|ajax|colourmod|rss|backgrounds|bglib|adminlogin|vision|post_img|logo|db_backup) - [L]
+RewriteRule ^api\/ - [L]
+RewriteRule ^(logout.php|randompic.php|sticker_data.php|my_status.php|sticker.swf|my_friends.php|delete_me.php|get_sms.php) - [L]
+RewriteRule ^[^/].*$ index.php

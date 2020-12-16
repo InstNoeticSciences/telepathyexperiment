@@ -1,0 +1,22 @@
+#top {
+	padding: 10px;
+	border-bottom: 4px solid #ccc;
+	background: #000;
+	margin-bottom: 10px;
+}
+#bottom {
+	background: #000;
+	border-top: 2px solid #ccc;
+	clear: both;
+	color: #fff;
+	padding: 5px;
+	margin-top: 10px;
+}
+#menu {
+	margin-right: 10px;
+	margin-top: 10px;
+	color: #fff;
+}
+#main_content {
+	padding: 10px;
+}

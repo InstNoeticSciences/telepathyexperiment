@@ -1,0 +1,4 @@
+#set /demo/api/direct_messages if setup url is yoursite.com/demo
+RewriteEngine on
+RewriteBase /demo/api/direct_messages
+RewriteRule ^[^/].*$ dm.php
